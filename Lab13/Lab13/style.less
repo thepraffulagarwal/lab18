@@ -1,0 +1,21 @@
+@width: 100px;
+@height: @width + 50px;
+
+.box {
+  width: @width;
+  height: @height;
+  background-color: aqua;
+}
+
+.color_size() {
+  color: red;
+  size: 3rem;
+}
+
+.box2 {
+  .color_size;
+}
+
+.box3 {
+  .color_size;
+}
